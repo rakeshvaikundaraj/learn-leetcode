@@ -11,3 +11,7 @@ class Solution:
             num_to_index[num] = i
 
         return []
+
+
+solution = Solution()
+print(solution.two_sum([2, 7, 11, 15], 9))
